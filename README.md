@@ -9,8 +9,7 @@ First, it is important to understand the inputs and outputs of the ALU. The ALU 
 - data_operandA: 32-bit input, first data input to perform ALU functions on
 - data_operandB: 32-bit input, second data input to perform ALU functions on
 - ctrl_ALUopcode: 5-bit input, determines which data result the ALU outputs
-- ctrl_shiftamt: 5-bit input, determines the shift amount when performing the functions logical left shift or arithmetic right
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;shift
+- ctrl_shiftamt: 5-bit input, determines the shift amount when performing the functions logical left shift or arithmetic right shift
 - data_result: 32-bit output, data result from the ALU determined by the ALU opcode
 - isNotEqual: 1-bit output, determines if A and B are not equal to each other
 - isLessThan: 1-bit output, determines if A is stricly less than B
